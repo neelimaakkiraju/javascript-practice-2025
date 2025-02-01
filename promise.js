@@ -19,13 +19,20 @@ const  login = () => {
             setTimeout(()=>{
                 console.log("please login")
                 resolve("login successful")
-            })
+            },5000)
 
         })
     )
 }
 
+const signUp = ()=>{
+    new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("please visit login")
+            resolve("Existing user")
+        })
+    })
+}
 
 
-
-login().then((data)=>{console.log(data)})
+login().then(signUp)
