@@ -13,26 +13,11 @@
 // })
 
 
-const  login = () => {
-    return(
-        new Promise((resolve,reject)=>{
-            setTimeout(()=>{
-                console.log("please login")
-                resolve("login successful")
-            },5000)
-
-        })
-    )
+const greet = () => {
+     new Promise((resolve,reject)=>{
+        console.log("Resolved")
+        resolve("Hello World")
+     })
 }
 
-const signUp = ()=>{
-    new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            console.log("please visit login")
-            resolve("Existing user")
-        })
-    })
-}
-
-
-login().then(signUp)
+greet().then(data=> console.log(data))
