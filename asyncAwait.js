@@ -7,3 +7,6 @@ const objData = async ()=>{
 objData()
 
 
+async function getData(){
+    
+}
