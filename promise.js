@@ -16,6 +16,7 @@
 const greet =  new Promise((resolve,reject)=>{
         console.log("Resolved")
         resolve("Hello World")
+        
      })
 
-greet.then(data => console.log(data))
+greet.then(data => console.log(data)).catch(err=>console.log(err))
