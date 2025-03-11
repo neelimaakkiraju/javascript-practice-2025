@@ -11,5 +11,12 @@ console.log(2<3<4)  //true
 
 let a;
 var b;
-console.log(a)
-console.log(b)
+// console.log(a)
+var b = 30
+// console.log(b)
+function hoisting(){
+    var a = 10
+    console.log(a)
+}
+// console.log(a)
+hoisting()
