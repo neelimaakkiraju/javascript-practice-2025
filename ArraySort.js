@@ -10,3 +10,13 @@ console.log(result)
 
 const result1 = arr1.filter((element,index)=> arr1.indexOf(element)===index)
 console.log(result1)
+
+
+//Remove Duplicates using map
+var newArr = []
+
+const result2 = arr1.map((elem,ind)=>
+   
+ arr1.includes(elem)?newArr.push(elem):elem
+)
+console.log(result2)
