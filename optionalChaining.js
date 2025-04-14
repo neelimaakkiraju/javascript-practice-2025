@@ -1,8 +1,11 @@
 const obj = {
-    name:"Neelima",
+    // name:"Neelima",
     email:"neelima@gmail.com",
-    address:"INDIA"
-
+    address:"INDIA",
+    name:{
+        newName:"Neelima"
+    }
 }
 
-console.log(obj?.name)
+console.log(obj?.details?.age)
+
