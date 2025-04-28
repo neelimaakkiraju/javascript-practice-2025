@@ -61,28 +61,28 @@ function restoreLibrary(books, threshold, transformations = []) {
 }
 
 // Test Case 1 (Original Example)
-const test1 = restoreLibrary(
-    [{ "title": "Spellbook", "energy": 50 }],
-    10,
-    [energy => energy + 10]
-);
-console.log("Test 1:", JSON.stringify(test1, null, 2));
+// const test1 = restoreLibrary(
+//     [{ "title": "Spellbook", "energy": 50 }],
+//     10,
+//     [energy => energy + 10]
+// );
+// console.log("Test 1:", JSON.stringify(test1, null, 2));
 
-// Test Case 2 (From your new image)
-const test2 = restoreLibrary(
-    [
-        { title: 'Scroll of Fire', energy: 80 },
-        { title: 'Ice Tome', energy: 30 }
-    ],
-    50,
-    [energy => energy + 10]
-);
-console.log("Test 2:", JSON.stringify(test2, null, 2));
+// // Test Case 2 (From your new image)
+// const test2 = restoreLibrary(
+//     [
+//         { title: 'Scroll of Fire', energy: 80 },
+//         { title: 'Ice Tome', energy: 30 }
+//     ],
+//     50,
+//     [energy => energy + 10]
+// );
+// console.log("Test 2:", JSON.stringify(test2, null, 2));
 
-// Test Case 3 (From your new image)
-const test3 = restoreLibrary(
-    [{ title: 'Ancient Codex', energy: 120 }],
-    100,
-    [] // No transformations
-);
-console.log("Test 3:", JSON.stringify(test3, null, 2));
+// // Test Case 3 (From your new image)
+// const test3 = restoreLibrary(
+//     [{ title: 'Ancient Codex', energy: 120 }],
+//     100,
+//     [] // No transformations
+// );
+// console.log("Test 3:", JSON.stringify(test3, null, 2));
